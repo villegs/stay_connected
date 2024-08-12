@@ -3,7 +3,7 @@ import streamlit as st
 
 import config
 
-st.title("SC Management")
+st.title("Stay Connected")
 
 # Get API key from user secrets
 gemini_api_key = config.gemini_api_key

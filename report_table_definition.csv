@@ -1,0 +1,21 @@
+﻿Column,Type,Example
+Center,str,Center A
+Week,int,3
+Number of Patients,int,6634
+Average Time to Get Served,int,23
+Average Time to Get Served (Urgent),int,22
+Average Time to Get Served (Semi-Urgent),int,22
+Average Time to Get Served (Non-Urgent),int,22
+Patient Satisfaction Scores,float,3
+Number of Readmissions,int,35
+Number of Medical Licenses Presented,int,108
+Number of Staff Training Hours,float,350
+Utilization of Equipment & Resources,float,60
+Number of Supplies Ordered/Consumed,int,7000
+Turnover Rate of Staff,int,7
+Average Cost per Patient,int,585
+Number of Outpatient Appointments,int,2587
+Number of Emergency Room Visits,int,350
+Number of Surgical Procedures Performed,int,210
+Bed Occupancy Rate,float,77
+Timestamp,str,26-07-2024 20:25

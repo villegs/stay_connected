@@ -4,6 +4,9 @@ import numpy as np
 from utils.load_and_join_df import retrieve_formatted_df
 df = retrieve_formatted_df()
 
+# Set up Streamlit page title
+st.title("All metrics linechart")
+
 # Define the columns for your line chart
 line_chart_columns = [
     "Number of Patients",

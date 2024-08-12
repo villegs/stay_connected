@@ -1,8 +1,8 @@
 from utils.reports import *
 import streamlit as st
 
-df_reports = pd.read_csv('center_reports.csv', parse_dates=['Timestamp']).set_index(['Center','Week'])
-df_reports_table = pd.read_csv('reports_table.csv', parse_dates=['Timestamp']).set_index(['Center','Week'])
+df_reports = pd.read_csv('center_reports.csv', parse_dates=['Timestamp'], dayfirst=True).set_index(['Center','Week'])
+df_reports_table = pd.read_csv('reports_table.csv', parse_dates=['Timestamp'], dayfirst=True).set_index(['Center','Week'])
 
 df_filtered = df_reports[~df_reports.index.isin(df_reports_table.index)]
 st.subheader('Pending reports to be converted:')

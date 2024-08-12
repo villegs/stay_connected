@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.transform_report_to_table import parse_reports
+from utils.reports import parse_reports
 import pandas as pd
 import google.generativeai as genai
 import config

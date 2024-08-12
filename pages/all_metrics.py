@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 import numpy as np
 from utils.load_and_join_df import retrieve_formatted_df
 df = retrieve_formatted_df()
